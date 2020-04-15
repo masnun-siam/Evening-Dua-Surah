@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TasbihActivity"
+    android:background="#fa9585"
+    >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/resetTasbihButton"
+        android:text="রিসেট"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:padding="20dp"
+        android:textSize="30dp"
+        android:background="@drawable/firstpage_button_shape"
+        android:layout_margin="10dp"
+        android:onClick="setReset"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_below="@+id/resetTasbihButton"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:text="0"
+        android:textSize="200sp"
+        android:textColor="#000000"
+        android:autoSizeTextType="uniform"
+        android:gravity="center"
+        android:id="@+id/tasbihCounter"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:layout_width="368dp"
+        android:layout_height="348dp"
+        android:layout_below="@+id/tasbihCounter"
+        android:layout_alignBottom="@+id/tasbihCounter"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-7dp"
+        android:background="@drawable/tasbih_button_background"
+        android:text="চাপুন"
+        android:textSize="50dp"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="setIncrease"/>
+
+
+
+</RelativeLayout>

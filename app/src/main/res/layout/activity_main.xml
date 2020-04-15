@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/activity_background_grey_gradient"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="সন্ধ্যার দোয়া"
+        android:textSize="50sp"
+        android:textColor="#FFFFFF"
+        android:background="#FF9800"
+        android:padding="40dp"
+        android:layout_gravity="top"
+        android:layout_margin="60dp"
+        android:gravity="center"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="2"
+            android:gravity="bottom"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="60dp"
+            android:layout_marginTop="60dp"
+            >
+
+            <Button
+                android:id="@+id/list_show_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="দোয়া ও সুরার তালিকা"
+                android:textColor="#000000"
+                android:textSize="40sp"
+                android:background="@drawable/firstpage_button_shape"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:paddingHorizontal="40dp"
+                android:paddingVertical="10dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="50dp"
+                android:layout_marginVertical="20dp"
+                android:layout_weight="1"
+                />
+
+            <Button
+                android:id="@+id/tasbih_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="তাসবিহ"
+                android:textColor="#000000"
+                android:textSize="40sp"
+                android:background="@drawable/firstpage_button_shape"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:paddingHorizontal="40dp"
+                android:paddingVertical="10dp"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

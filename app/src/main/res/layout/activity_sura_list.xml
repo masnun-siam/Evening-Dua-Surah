@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TasbihActivity"
+    android:background="#fa9585"
+    android:gravity="center_horizontal"
+    android:layout_gravity="center_horizontal"
+    >
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="10dp"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginVertical="40dp"
+            >
+
+            <Button
+                android:text="সুরা ফাতিহা"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/sura_list_button_background"
+                android:gravity="center"
+                android:textSize="40dp"
+                android:padding="20dp"
+                android:layout_marginVertical="10dp"
+                android:layout_marginHorizontal="40dp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/load_sura_fatiha"
+                 />
+            <Button
+                android:text="আয়াতুল কুরসি"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/sura_list_button_background"
+                android:gravity="center"
+                android:textSize="40dp"
+                android:padding="20dp"
+                android:layout_marginVertical="10dp"
+                android:layout_marginHorizontal="40dp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/load_ayatul_kursi"
+                />
+            <Button
+                android:text="সুরা বাকারা (শেষ দুই আয়াত)"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/sura_list_button_background"
+                android:textSize="40dp"
+                android:gravity="center"
+                android:padding="20dp"
+                android:layout_marginVertical="10dp"
+                android:layout_marginHorizontal="40dp"
+                android:textColor="#FFFFFF"
+                android:autoSizeTextType="uniform"
+                android:id="@+id/load_sura_bakara"
+                />
+            <Button
+                android:text="সুরা ইয়াসিন"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/sura_list_button_background"
+                android:gravity="center"
+                android:textSize="40dp"
+                android:padding="20dp"
+                android:layout_marginVertical="10dp"
+                android:layout_marginHorizontal="40dp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/load_sura_yasin"
+                />
+            <Button
+                android:text="সুরা হাশর (শেষ তিন আয়াত)"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/sura_list_button_background"
+                android:gravity="center"
+                android:textSize="40dp"
+                android:padding="20dp"
+                android:layout_marginVertical="10dp"
+                android:layout_marginHorizontal="40dp"
+                android:textColor="#FFFFFF"
+                android:autoSizeTextType="uniform"
+                android:id="@+id/load_sura_hashor"
+                />
+            <Button
+                android:text="সুরা মুলক"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/sura_list_button_background"
+                android:gravity="center"
+                android:textSize="40dp"
+                android:padding="20dp"
+                android:layout_marginVertical="10dp"
+                android:layout_marginHorizontal="40dp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/load_sura_mulk"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginHorizontal="40dp"
+                android:layout_marginVertical="10dp"
+                android:background="@drawable/sura_list_button_background"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="সুরা তাওবা (শেষ দুই আয়াত)"
+                android:textColor="#FFFFFF"
+                android:textSize="40dp"
+                android:autoSizeTextType="uniform"
+                android:id="@+id/load_sura_taobah"
+                />
+
+            <Button
+                android:text="আয়াতে শেফা"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/sura_list_button_background"
+                android:gravity="center"
+                android:textSize="40dp"
+                android:padding="20dp"
+                android:layout_marginVertical="10dp"
+                android:layout_marginHorizontal="40dp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/load_ayate_shefa"
+                />
+
+            <Button
+                android:text="দুরুদে হাজারী"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/sura_list_button_background"
+                android:gravity="center"
+                android:textSize="40dp"
+                android:padding="20dp"
+                android:layout_marginVertical="10dp"
+                android:layout_marginHorizontal="40dp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/load_durude_hajari"
+                />
+
+            <Button
+                android:text="আহাদনামা"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/sura_list_button_background"
+                android:gravity="center"
+                android:textSize="40dp"
+                android:padding="20dp"
+                android:layout_marginVertical="10dp"
+                android:layout_marginHorizontal="40dp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/load_ahadnama"
+                />
+            <Button
+                android:text="চার কালিমা"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/sura_list_button_background"
+                android:gravity="center"
+                android:textSize="40dp"
+                android:padding="20dp"
+                android:layout_marginVertical="10dp"
+                android:layout_marginHorizontal="40dp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/load_four_kalema"
+                />
+            <Button
+                android:text="সাইয়্যিদুল ইস্তিগফার"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/sura_list_button_background"
+                android:gravity="center"
+                android:textSize="40dp"
+                android:padding="20dp"
+                android:layout_marginVertical="10dp"
+                android:layout_marginHorizontal="40dp"
+                android:textColor="#FFFFFF"
+                android:autoSizeTextType="uniform"
+                android:id="@+id/load_sayidul_istigfar"
+                />
+            <Button
+                android:text="সাত সালাম"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/sura_list_button_background"
+                android:gravity="center"
+                android:textSize="40dp"
+                android:padding="20dp"
+                android:layout_marginVertical="10dp"
+                android:layout_marginHorizontal="40dp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/load_sat_salam"
+                />
+            <Button
+                android:text="নামাজের শেষের দোয়া"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/sura_list_button_background"
+                android:gravity="center"
+                android:textSize="40dp"
+                android:padding="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="40dp"
+                android:textColor="#FFFFFF"
+                android:autoSizeTextType="uniform"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/load_namaj_shesher_doa"
+                />
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>
