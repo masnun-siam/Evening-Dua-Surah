@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">সন্ধ্যার দোয়া ও সুরা</string>
+    <string name="app_name">Evening Dua and Surah</string>
     <string name="title_activity_sura_list">SuraListActivity</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
