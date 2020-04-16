@@ -39,6 +39,8 @@
                 android:layout_marginHorizontal="40dp"
                 android:textColor="#FFFFFF"
                 android:id="@+id/load_sura_fatiha"
+                android:autoSizeTextType="uniform"
+
                  />
             <Button
                 android:text="আয়াতুল কুরসি"
@@ -53,6 +55,7 @@
                 android:layout_marginHorizontal="40dp"
                 android:textColor="#FFFFFF"
                 android:id="@+id/load_ayatul_kursi"
+                android:autoSizeTextType="uniform"
                 />
             <Button
                 android:text="সুরা বাকারা (শেষ দুই আয়াত)"
@@ -82,6 +85,7 @@
                 android:layout_marginHorizontal="40dp"
                 android:textColor="#FFFFFF"
                 android:id="@+id/load_sura_yasin"
+                android:autoSizeTextType="uniform"
                 />
             <Button
                 android:text="সুরা হাশর (শেষ তিন আয়াত)"
@@ -111,6 +115,7 @@
                 android:layout_marginHorizontal="40dp"
                 android:textColor="#FFFFFF"
                 android:id="@+id/load_sura_mulk"
+                android:autoSizeTextType="uniform"
                 />
 
             <Button
@@ -142,6 +147,7 @@
                 android:layout_marginHorizontal="40dp"
                 android:textColor="#FFFFFF"
                 android:id="@+id/load_ayate_shefa"
+                android:autoSizeTextType="uniform"
                 />
 
 <!--            <Button-->
