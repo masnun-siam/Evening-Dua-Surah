@@ -144,94 +144,94 @@
                 android:id="@+id/load_ayate_shefa"
                 />
 
-            <Button
-                android:text="দুরুদে হাজারী"
-                android:layout_width="match_parent"
-                android:layout_height="120dp"
-                android:layout_gravity="center_horizontal"
-                android:background="@drawable/sura_list_button_background"
-                android:gravity="center"
-                android:textSize="40dp"
-                android:padding="20dp"
-                android:layout_marginVertical="10dp"
-                android:layout_marginHorizontal="40dp"
-                android:textColor="#FFFFFF"
-                android:id="@+id/load_durude_hajari"
-                />
+<!--            <Button-->
+<!--                android:text="দুরুদে হাজারী"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="120dp"-->
+<!--                android:layout_gravity="center_horizontal"-->
+<!--                android:background="@drawable/sura_list_button_background"-->
+<!--                android:gravity="center"-->
+<!--                android:textSize="40dp"-->
+<!--                android:padding="20dp"-->
+<!--                android:layout_marginVertical="10dp"-->
+<!--                android:layout_marginHorizontal="40dp"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                android:id="@+id/load_durude_hajari"-->
+<!--                />-->
 
-            <Button
-                android:text="আহাদনামা"
-                android:layout_width="match_parent"
-                android:layout_height="120dp"
-                android:layout_gravity="center_horizontal"
-                android:background="@drawable/sura_list_button_background"
-                android:gravity="center"
-                android:textSize="40dp"
-                android:padding="20dp"
-                android:layout_marginVertical="10dp"
-                android:layout_marginHorizontal="40dp"
-                android:textColor="#FFFFFF"
-                android:id="@+id/load_ahadnama"
-                />
-            <Button
-                android:text="চার কালিমা"
-                android:layout_width="match_parent"
-                android:layout_height="120dp"
-                android:layout_gravity="center_horizontal"
-                android:background="@drawable/sura_list_button_background"
-                android:gravity="center"
-                android:textSize="40dp"
-                android:padding="20dp"
-                android:layout_marginVertical="10dp"
-                android:layout_marginHorizontal="40dp"
-                android:textColor="#FFFFFF"
-                android:id="@+id/load_four_kalema"
-                />
-            <Button
-                android:text="সাইয়্যিদুল ইস্তিগফার"
-                android:layout_width="match_parent"
-                android:layout_height="120dp"
-                android:layout_gravity="center_horizontal"
-                android:background="@drawable/sura_list_button_background"
-                android:gravity="center"
-                android:textSize="40dp"
-                android:padding="20dp"
-                android:layout_marginVertical="10dp"
-                android:layout_marginHorizontal="40dp"
-                android:textColor="#FFFFFF"
-                android:autoSizeTextType="uniform"
-                android:id="@+id/load_sayidul_istigfar"
-                />
-            <Button
-                android:text="সাত সালাম"
-                android:layout_width="match_parent"
-                android:layout_height="120dp"
-                android:layout_gravity="center_horizontal"
-                android:background="@drawable/sura_list_button_background"
-                android:gravity="center"
-                android:textSize="40dp"
-                android:padding="20dp"
-                android:layout_marginVertical="10dp"
-                android:layout_marginHorizontal="40dp"
-                android:textColor="#FFFFFF"
-                android:id="@+id/load_sat_salam"
-                />
-            <Button
-                android:text="নামাজের শেষের দোয়া"
-                android:layout_width="match_parent"
-                android:layout_height="120dp"
-                android:layout_gravity="center_horizontal"
-                android:background="@drawable/sura_list_button_background"
-                android:gravity="center"
-                android:textSize="40dp"
-                android:padding="20dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginHorizontal="40dp"
-                android:textColor="#FFFFFF"
-                android:autoSizeTextType="uniform"
-                android:layout_marginBottom="10dp"
-                android:id="@+id/load_namaj_shesher_doa"
-                />
+<!--            <Button-->
+<!--                android:text="আহাদনামা"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="120dp"-->
+<!--                android:layout_gravity="center_horizontal"-->
+<!--                android:background="@drawable/sura_list_button_background"-->
+<!--                android:gravity="center"-->
+<!--                android:textSize="40dp"-->
+<!--                android:padding="20dp"-->
+<!--                android:layout_marginVertical="10dp"-->
+<!--                android:layout_marginHorizontal="40dp"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                android:id="@+id/load_ahadnama"-->
+<!--                />-->
+<!--            <Button-->
+<!--                android:text="চার কালিমা"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="120dp"-->
+<!--                android:layout_gravity="center_horizontal"-->
+<!--                android:background="@drawable/sura_list_button_background"-->
+<!--                android:gravity="center"-->
+<!--                android:textSize="40dp"-->
+<!--                android:padding="20dp"-->
+<!--                android:layout_marginVertical="10dp"-->
+<!--                android:layout_marginHorizontal="40dp"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                android:id="@+id/load_four_kalema"-->
+<!--                />-->
+<!--            <Button-->
+<!--                android:text="সাইয়্যিদুল ইস্তিগফার"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="120dp"-->
+<!--                android:layout_gravity="center_horizontal"-->
+<!--                android:background="@drawable/sura_list_button_background"-->
+<!--                android:gravity="center"-->
+<!--                android:textSize="40dp"-->
+<!--                android:padding="20dp"-->
+<!--                android:layout_marginVertical="10dp"-->
+<!--                android:layout_marginHorizontal="40dp"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                android:autoSizeTextType="uniform"-->
+<!--                android:id="@+id/load_sayidul_istigfar"-->
+<!--                />-->
+<!--            <Button-->
+<!--                android:text="সাত সালাম"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="120dp"-->
+<!--                android:layout_gravity="center_horizontal"-->
+<!--                android:background="@drawable/sura_list_button_background"-->
+<!--                android:gravity="center"-->
+<!--                android:textSize="40dp"-->
+<!--                android:padding="20dp"-->
+<!--                android:layout_marginVertical="10dp"-->
+<!--                android:layout_marginHorizontal="40dp"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                android:id="@+id/load_sat_salam"-->
+<!--                />-->
+<!--            <Button-->
+<!--                android:text="নামাজের শেষের দোয়া"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="120dp"-->
+<!--                android:layout_gravity="center_horizontal"-->
+<!--                android:background="@drawable/sura_list_button_background"-->
+<!--                android:gravity="center"-->
+<!--                android:textSize="40dp"-->
+<!--                android:padding="20dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_marginHorizontal="40dp"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                android:autoSizeTextType="uniform"-->
+<!--                android:layout_marginBottom="10dp"-->
+<!--                android:id="@+id/load_namaj_shesher_doa"-->
+<!--                />-->
 
 
         </LinearLayout>

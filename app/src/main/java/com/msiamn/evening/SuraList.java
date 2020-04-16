@@ -38,12 +38,12 @@ public class SuraList extends AppCompatActivity implements View.OnClickListener 
         loadSuraMulk = (Button) findViewById(R.id.load_sura_mulk);
         loadSuraTaoba = (Button) findViewById(R.id.load_sura_taobah);
         loadAyateShefa = (Button) findViewById(R.id.load_ayate_shefa);
-        loadDurudeHajari = (Button) findViewById(R.id.load_durude_hajari);
-        loadAhadnama = (Button) findViewById(R.id.load_ahadnama);
-        loadFourKalima = (Button) findViewById(R.id.load_four_kalema);
-        loadSayidulIstigfar = (Button) findViewById(R.id.load_sayidul_istigfar);
-        loadSatSalam = (Button) findViewById(R.id.load_sat_salam);
-        loadNamajSheshDoa = (Button) findViewById(R.id.load_namaj_shesher_doa);
+//        loadDurudeHajari = (Button) findViewById(R.id.load_durude_hajari);
+//        loadAhadnama = (Button) findViewById(R.id.load_ahadnama);
+//        loadFourKalima = (Button) findViewById(R.id.load_four_kalema);
+//        loadSayidulIstigfar = (Button) findViewById(R.id.load_sayidul_istigfar);
+//        loadSatSalam = (Button) findViewById(R.id.load_sat_salam);
+//        loadNamajSheshDoa = (Button) findViewById(R.id.load_namaj_shesher_doa);
 
         loadSuraFatihaButton.setOnClickListener(this);
         loadAyatulKursi.setOnClickListener(this);
@@ -53,12 +53,12 @@ public class SuraList extends AppCompatActivity implements View.OnClickListener 
         loadSuraMulk.setOnClickListener(this);
         loadSuraTaoba.setOnClickListener(this);
         loadAyateShefa.setOnClickListener(this);
-        loadDurudeHajari.setOnClickListener(this);
-        loadAhadnama.setOnClickListener(this);
-        loadFourKalima.setOnClickListener(this);
-        loadSayidulIstigfar.setOnClickListener(this);
-        loadSatSalam.setOnClickListener(this);
-        loadNamajSheshDoa.setOnClickListener(this);
+//        loadDurudeHajari.setOnClickListener(this);
+//        loadAhadnama.setOnClickListener(this);
+//        loadFourKalima.setOnClickListener(this);
+//        loadSayidulIstigfar.setOnClickListener(this);
+//        loadSatSalam.setOnClickListener(this);
+//        loadNamajSheshDoa.setOnClickListener(this);
 
     }
 
