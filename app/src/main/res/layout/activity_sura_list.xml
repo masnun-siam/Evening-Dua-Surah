@@ -40,7 +40,7 @@
                 android:textColor="#FFFFFF"
                 android:id="@+id/load_sura_fatiha"
                 android:autoSizeTextType="uniform"
-                android:autoSizeMaxTextSize="40sp"
+                android:autoSizeMaxTextSize="35sp"
                 
 
                  />
@@ -58,7 +58,7 @@
                 android:textColor="#FFFFFF"
                 android:id="@+id/load_ayatul_kursi"
                 android:autoSizeTextType="uniform"
-                android:autoSizeMaxTextSize="40sp"
+                android:autoSizeMaxTextSize="35sp"
                 
                 />
             <Button
@@ -75,7 +75,7 @@
                 android:textColor="#FFFFFF"
                 android:autoSizeTextType="uniform"
                 android:id="@+id/load_sura_bakara"
-                android:autoSizeMaxTextSize="40sp"
+                android:autoSizeMaxTextSize="35sp"
                 
                 />
             <Button
@@ -92,7 +92,7 @@
                 android:textColor="#FFFFFF"
                 android:id="@+id/load_sura_yasin"
                 android:autoSizeTextType="uniform"
-                android:autoSizeMaxTextSize="40sp"
+                android:autoSizeMaxTextSize="35sp"
                 
                 />
             <Button
@@ -109,7 +109,7 @@
                 android:textColor="#FFFFFF"
                 android:autoSizeTextType="uniform"
                 android:id="@+id/load_sura_hashor"
-                android:autoSizeMaxTextSize="40sp"
+                android:autoSizeMaxTextSize="35sp"
                 
                 />
             <Button
@@ -126,7 +126,7 @@
                 android:textColor="#FFFFFF"
                 android:id="@+id/load_sura_mulk"
                 android:autoSizeTextType="uniform"
-                android:autoSizeMaxTextSize="40sp"
+                android:autoSizeMaxTextSize="35sp"
                 
                 />
 
@@ -144,7 +144,7 @@
 
                 android:autoSizeTextType="uniform"
                 android:id="@+id/load_sura_taobah"
-                android:autoSizeMaxTextSize="40sp"
+                android:autoSizeMaxTextSize="35sp"
                 
                 />
 
@@ -162,7 +162,7 @@
                 android:textColor="#FFFFFF"
                 android:id="@+id/load_ayate_shefa"
                 android:autoSizeTextType="uniform"
-                android:autoSizeMaxTextSize="40sp"
+                android:autoSizeMaxTextSize="35sp"
                 
                 />
 

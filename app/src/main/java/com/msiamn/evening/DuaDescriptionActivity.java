@@ -94,9 +94,9 @@ public class DuaDescriptionActivity extends AppCompatActivity {
         }
     }
 
-    @Override
-    protected void onStop() {
-        super.onStop();
-        stopPlayer();
-    }
+//    @Override
+//    protected void onStop() {
+//        super.onStop();
+//        stopPlayer();
+//    }
 }
