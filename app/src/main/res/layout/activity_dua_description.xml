@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,35 +8,93 @@
     android:orientation="vertical"
     android:background="#444444">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/description_page_background"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:divider="?android:listDivider"
+        android:layout_alignParentTop="true"
+        android:id="@+id/media_button_section"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="অডিও ফাইল"
+            android:textSize="45dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:padding="10dp"
+            android:id="@+id/descriptionPageName"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#AAAAAA"
+            />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            >
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Play"
+                android:textColor="#FFFFFF"
+                android:background="#FF5D5D5D"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:autoSizeTextType="uniform"
+                android:onClick="play"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Pause"
+                android:textColor="#FFFFFF"
+                android:background="#FF5D5D5D"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:autoSizeTextType="uniform"
+                android:onClick="pause"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Stop"
+                android:textColor="#FFFFFF"
+                android:background="#5D5D5D"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:autoSizeTextType="uniform"
+                android:onClick="stop"
+                />
+        </LinearLayout>
+    </LinearLayout>
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/media_button_section"
+        android:layout_below="@+id/media_button_section"
+        android:layout_alignParentBottom="true"
         >
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
             >
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:background="@drawable/description_page_background"
-                android:layout_marginVertical="10dp"
-                android:layout_marginHorizontal="10dp"
-                >
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Sura/dua name"
-                    android:textSize="50dp"
-                    android:layout_gravity="center"
-                    android:textStyle="bold"
-                    android:textColor="#000000"
-                    android:padding="10dp"
-                    android:id="@+id/descriptionPageName"
-                    />
-            </LinearLayout>
+
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -149,78 +207,8 @@
 
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:background="@drawable/description_page_background"
-                android:layout_marginVertical="10dp"
-                android:layout_marginHorizontal="10dp"
-                android:divider="?android:listDivider"
-                >
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="অডিও ফাইল"
-                    android:textSize="45dp"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:textStyle="bold"
-                    android:textColor="#000000"
-                    android:padding="10dp"
-                    />
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="#AAAAAA"
-                    />
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:padding="10dp"
-                    android:textColor="#000000"
-                    android:orientation="horizontal"
-                    android:weightSum="3"
-                    >
-                    <Button
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="Play"
-                        android:textColor="#FFFFFF"
-                        android:background="#FF5D5D5D"
-                        android:padding="10dp"
-                        android:layout_margin="10dp"
-                        android:autoSizeTextType="uniform"
-                        android:onClick="play"
-                        />
-                    <Button
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="Pause"
-                        android:textColor="#FFFFFF"
-                        android:background="#FF5D5D5D"
-                        android:padding="10dp"
-                        android:layout_margin="10dp"
-                        android:autoSizeTextType="uniform"
-                        android:onClick="pause"
-                        />
-                    <Button
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="Stop"
-                        android:textColor="#FFFFFF"
-                        android:background="#5D5D5D"
-                        android:padding="10dp"
-                        android:layout_margin="10dp"
-                        android:autoSizeTextType="uniform"
-                        android:onClick="stop"
-                        />
-                </LinearLayout>
-            </LinearLayout>
+
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 
-</FrameLayout>
+</RelativeLayout>
